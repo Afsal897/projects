@@ -1,0 +1,86 @@
+/* styles.css */
+
+/* Background and text colors */
+body {
+    background-color: #000000; /* Black background */
+    color: #00FF00; /* Neon green text */
+    font-family: Arial, sans-serif;
+}
+
+/* Header styling */
+.header a {
+    color: #00FF00;
+    font-size: 48px;
+    text-decoration: none;
+    text-shadow: 0px 0px 5px #00FF00;
+    transition: color 0.3s ease;
+}
+
+.header a:hover {
+    color: #000000;
+}
+
+/* Container for content */
+.container {
+    background-attachment: black;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+/* Boxes for the sections (About and Project) */
+.box {
+    background-color: #222222; /* Dark background for the box */
+    color: #00FF00; /* Neon green text inside the box */
+    padding: 60px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 100%; /* Increased box size */
+    text-align: center;
+    box-shadow: 0 0 15px 5px rgba(0, 255, 0, 0.5); /* Neon glow effect */
+}
+
+.box:hover {
+    transform: scale(1.05);
+    border: 2px solid #00FF00;
+    box-shadow: 0 0 20px 10px rgba(0, 255, 0, 0.8); /* Enhanced hover effect */
+}
+
+/* Button styling */
+.stButton > button {
+    background-color: #111;
+    color: #00FF00;
+    border: 2px solid #00FF00;
+    padding: 12px 30px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.stButton > button:hover {
+    background-color: #00FF00;
+    color: #000;
+}
+
+/* Footer styling */
+footer {
+    background-color: #111;
+    color: #00FF00;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+}
+
+html, body {
+    height: 100%; /* Ensure the body takes up full screen height */
+    background-color: #000000; /* Black background */
+    color: #00FF00; /* Neon green text */
+    font-family: Arial, sans-serif;
+    margin: 0; /* Remove default margin */
+}
