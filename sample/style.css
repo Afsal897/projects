@@ -1,0 +1,115 @@
+/* Reset some default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    line-height: 1.6;
+    scroll-behavior: smooth;
+  }
+  
+  header {
+    text-align: center;
+    padding: 2em;
+    background-color: #1e1e1e;
+  }
+  
+  header h1 {
+    color: #0f9d58;
+  }
+  
+  main {
+    padding: 2em;
+  }
+  
+/* Container for the boxes */
+.content-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2em;
+  gap: 1em;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+/* Style for each box */
+.box {
+  flex: 1 1 30%;  /* Allows each box to take up about 30% of the row */
+  background-color: #1e1e1e;
+  color: #ffffff;
+  padding: 2em;
+  margin: 1em;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease;
+}
+
+.box:hover {
+  transform: scale(1.05); /* Slightly increases size when hovered */
+}
+
+.box h2 {
+  color: #0f9d58;
+  margin-bottom: 1em;
+}
+
+.box p {
+  color: #cccccc;
+  margin-bottom: 1.5em;
+}
+
+.box a {
+  color: #f4c542;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.box a:hover {
+  color: #1e88e5;
+}
+
+  
+  .box h2 {
+    color: #1e88e5;
+  }
+  
+  .box p {
+    color: #cccccc;
+  }
+  
+  .box-link {
+    display: inline-block;
+    margin-top: 20px;
+    color: #f4c542;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .box-link:hover {
+    color: #0f9d58;
+  }
+  
+  footer {
+    background-color: #1e1e1e;
+    padding: 1em;
+    text-align: center;
+    font-size: 0.9em;
+    color: #cccccc;
+  }
+  
+  footer a {
+    color: #f4c542;
+  }
+  
+  footer a:hover {
+    color: #1e88e5;
+  }
+  
